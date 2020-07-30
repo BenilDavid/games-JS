@@ -11,3 +11,10 @@ function ageInDays(){
 function reset(){
     document.getElementById("flexbox-result").remove();
 }
+
+function generatecat(){
+    var image = document.createElement('img');
+    image.src = 'img/cat.jpg';
+    var div = document.getElementById('cat-gen');
+    div.appendChild(image);
+}

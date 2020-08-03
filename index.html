@@ -37,12 +37,13 @@
     
     <div class="container-3">
         <h2>challenge 3: Rock Paper Scissor</h2>
-        <div class="flex-box-container-3">
-            <img src="img/rock.jpg" onclick="rpsgame()" alt="rock">
-            <img src="img/paper.jpg" onclick="rpsgame()" alt="paper">
-            <img src="img/scissor.jpg" onclick="rpsgame()" alt="scissor">
+        <div id="rps-div" class="flex-box-container-3">
+            <img id="rock" src="img/rock.jpg" onclick="rpsgame(this)" alt="rock">
+            <img id="paper" src="img/paper.jpg" onclick="rpsgame(this)" alt="paper">
+            <img id="scissor" src="img/scissor.jpg" onclick="rpsgame(this)" alt="scissor">
         </div>
     </div>
     <script src="Js/home.js"></script>
 </body>
 </html>
+
